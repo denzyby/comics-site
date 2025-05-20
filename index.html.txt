@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой Комикс</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Название Комикса</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">О проекте</a>
+      <a href="characters.html">Персонажи</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="blog.html">Новости</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="img/cover.jpg" alt="Обложка комикса">
+    <div class="hero-text">
+      <h2>Добро пожаловать в Игру.</h2>
+      <p>Выживай и погружайся в мир таинственных коридоров вместе с героями!</p>
+      <a class="btn" href="chapter1.html">Читать первую главу</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Мой Комикс. Все права защищены.</p>
+  </footer>
+</body>
+</html>
