@@ -2,66 +2,47 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Чтение комикса — Юджин Сагас и Unox Team</title>
+  <title>Чтение комикса — Юджин Сагас</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
       background: #111;
-      color: #fff;
+      color: white;
       text-align: center;
     }
-    .container {
-      padding: 30px 10px;
-    }
-    img.comic-page {
+    img {
       max-width: 90%;
-      height: auto;
       margin: 20px 0;
-      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
       border-radius: 10px;
-      animation: fadeIn 1s ease-out;
-    }
-    .btns {
-      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(255,0,0,0.5);
     }
     .btn {
-      display: inline-block;
-      margin: 10px;
+      margin: 20px;
       padding: 10px 25px;
       background: #ff2c2c;
       color: white;
       text-decoration: none;
-      font-weight: bold;
       border-radius: 8px;
-      transition: background 0.3s;
+      font-weight: bold;
     }
     .btn:hover {
       background: #ff5555;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <h1>Часть 1: Начало</h1>
+  <h1>Часть 1: Начало</h1>
+  
+  <!-- Заменишь эти изображения своими -->
+  <img src="images/page1.jpg" alt="Страница 1">
+  <img src="images/page2.jpg" alt="Страница 2">
+  <img src="images/page3.jpg" alt="Страница 3">
 
-    <!-- Здесь твои страницы комикса -->
-    <img src="images/page1.jpg" alt="Страница 1" class="comic-page">
-    <img src="images/page2.jpg" alt="Страница 2" class="comic-page">
-    <img src="images/page3.jpg" alt="Страница 3" class="comic-page">
-    <!-- Добавляй новые страницы по мере выхода -->
-
-    <div class="btns">
-      <a href="index.html" class="btn">🏠 На главную</a>
-      <a href="comics2.html" class="btn">➡ Следующая часть</a>
-    </div>
-  </div>
+  <br>
+  <a href="index.html" class="btn">🏠 На главную</a>
 
 </body>
 </html>
